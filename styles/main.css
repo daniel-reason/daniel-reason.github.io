@@ -1,0 +1,29 @@
+body {
+  background: #F3E8C2;
+  color: black;
+  font-family: Arial;
+  margin: 20px
+}
+
+header {
+    background: #3c7947;
+    color: #F3E8C2;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 10px;
+}
+
+nav ul{
+    margin: 0;
+}
+
+nav ul li{
+    background: #3c7947;
+    color: blue;
+    display: inline-block;
+    list-style-type: none;
+    margin: 10;
+    padding: 2px 10px;
+}
