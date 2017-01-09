@@ -1,14 +1,14 @@
-body {
-  background: #F3E8C2;
-  color: black;
-  font-family: Arial;
-  margin: 20px
-}
-
 header {
     background: #3c7947;
     color: #F3E8C2;
     padding: 20px;
+}
+
+body {
+  background: white;
+  color: black;
+  font-family: Arial;
+  margin: 20px
 }
 
 header h1 {
