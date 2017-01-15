@@ -1,0 +1,84 @@
+/* Make element full width */
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }
+
+/* Make sure elements don't run outside containers (great for images in columns) */
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; }
+
+.title {
+  text-align: center;
+  font-family: 'Fugaz One', cursive;
+  background: #9999ff;
+  border-radius: 20px;
+  color: Black;
+  height: 120px;
+}
+
+.image-title {
+  width: 0%;
+  text-align: center;
+}
+
+body {
+  background-color: white;
+  height: 100%;
+  text-align: justify;
+  font-family: 'Average', serif;
+}
+
+nav {
+  width: 100%;
+}
+
+nav .button {
+  width: 100%;
+  background-color: white;
+  border-color: white;
+  padding: 0px;
+  color: black;
+  border-radius: 20px;
+}
+
+nav .button:hover {
+  background-color: #9999ff;
+  color: black;
+  border-color: #9999ff;
+  border-radius: 20px;
+}
+
+.main-content h6 {
+  font-weight: bold;
+}
+
+.box-model {
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+}
+
+.wireframe-img {
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+}
+
+footer {
+  background-color: #9999ff;
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  font-family: 'Lusitana', serif;
+  width: 100%;
+}
+
+@media (min-width: 400px) {
+
+}
+
+@media (min-width: 850px) {
+
+  .image-title {
+    width: 100%;
+  }
+}
