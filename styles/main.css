@@ -49,8 +49,12 @@ nav .button:hover {
   border-radius: 20px;
 }
 
-.main-content h6 {
-  font-weight: bold;
+.main-content {
+  text-align: center;
+}
+
+.blog-content {
+  text-align: left;
 }
 
 .box-model {
